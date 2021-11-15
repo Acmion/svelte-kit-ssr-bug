@@ -1,12 +1,5 @@
-<script context="module">
-    var content = [];
-
-    export async function load({ fetch })
-    {
-        content = ["a ", "b ", "c "];
-
-        return {};
-    }
+<script>
+    var content = ["a ", "b ", "c "];
 </script>
 
 <h1>HTML Before</h1>
